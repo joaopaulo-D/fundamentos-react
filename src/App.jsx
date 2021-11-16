@@ -11,6 +11,7 @@ import Card from "./components/layout/Card";
 function App(props){
     return(
         <S.App>
+            <h2>Fundamentos React</h2>
             <S.Cards>
                 <Card title="#07 - CondicionalIf" color="#fa6900">
                     <CondicionalIf numero={13}/>
